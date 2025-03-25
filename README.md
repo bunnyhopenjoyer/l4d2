@@ -2,9 +2,10 @@
 
 Toggle binds for:
 
-- viewmodel
-- lerp
-
+- viewmodel (47, 75, 180)
+- lerp (0ms, 33ms)
+- crosshair (dynamic 0, 1)
+  
 ---
 
 Custom stuff:
@@ -16,4 +17,4 @@ Custom stuff:
 
 ---
 
-I'm uploading this for myself, but if you want to use it, you can i don't really give a fuck.
+I'm uploading this for myself, but if you want to use it, you can. i don't really give a fuck.
