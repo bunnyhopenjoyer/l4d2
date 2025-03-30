@@ -19,9 +19,14 @@
 		
 		convar
 		{
+			cl_viewmodelfovhunter "100"
+            cl_viewmodelfovtank "100"
+			cl_viewmodelfovboomer "100"
+			cl_viewmodelfovsmoker "100"
+			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
-			mat_disable_bloom 1
+			mat_disable_bloom 0
 			r_draw_flashlight_3rd_person 0
 			r_maxdlights 0
 			r_shadowfromworldlights 0
@@ -47,12 +52,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-            hud_targetid_player_view_cone 0.0
-            cl_viewmodelfovhunter 115
-            cl_viewmodelfovtank 115
 	    	cl_color_survivor "255 246 119" 
 			r_3dsky 0
-
 		}
 	}
 
@@ -69,16 +70,14 @@
 		// set base gamemode convars first, then the current gamemode
 		convar
 		{
-			sv_disable_glow_survivors 1
-			sv_disable_glow_faritems 1
-			sv_rescue_disabled 1
-			z_non_head_damage_factor_multiplier 0.5
-			z_head_damage_causes_wounds 1
-			z_use_next_difficulty_damage_factor 1
-			z_witch_always_kills 1
+			cl_viewmodelfovhunter "100"
+            cl_viewmodelfovtank "100"
+			cl_viewmodelfovboomer "100"
+			cl_viewmodelfovsmoker "100"
+			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
-			mat_disable_bloom 1
+			mat_disable_bloom 0
 			r_draw_flashlight_3rd_person 0
 			r_maxdlights 0
 			r_shadowfromworldlights 0
@@ -104,49 +103,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-            hud_targetid_player_view_cone 0.0
-            cl_viewmodelfovhunter 115
-            cl_viewmodelfovtank 115
 	    	cl_color_survivor "255 246 119" 
 			r_3dsky 0
-		}
-
-	}
-
-	"survival"
-	{
-		"base"		"survival"
-		"maxplayers"    "4"	// survival
-		"x360ctx"	"3"
-		"x360matchrule"		"2"
-		"x360matchruleteam"	"3"
-		"x360presence"		"9"
-
-		"singlechapter"		"1"
-		
-		convar
-		{
-			r_shadows_on_renderables_enable 0
-			z_mob_simple_shadows 2
-			mat_disable_bloom 1
-			r_draw_flashlight_3rd_person 0
-			r_maxdlights 0
-			r_shadowfromworldlights 0
-			r_shadowmaxrendered 0
-			r_shadowrendertotexture 0
-			r_3dsky 0
-			mat_reducefillrate 1
-			mat_reduceparticles 1
-			r_rootlod 2
-			r_WaterDrawRefraction 0
-			r_WaterDrawReflection 0
-			
-			allow_all_bot_survivor_team 1
-			sv_client_min_interp_ratio -1
-			cl_interp_npcs 0.1
-			cl_ragdoll_maxcount 0
-			g_ragdoll_fadespeed 9999
-			g_ragdoll_lvfadespeed 9999 0
 		}
 	}
 
@@ -163,35 +121,14 @@
 
 		convar
 		{
-			"z_scrimmage_creep_delay" 0
-			"z_scrimmage_creep_rate" 100
-			"z_spawn_safety_range" 200
-			"tongue_miss_delay" 3
-			"tongue_hit_delay" 15
-			"tongue_dropping_to_ground_time" 0.5
-			"tongue_los_forgiveness_time" 1.5
-			"tongue_no_progress_choke_early_delay" 1.0
-			"z_pounce_stumble_radius" 160
-			"z_pounce_damage_interrupt" 150
-			"z_hunter_limit" 2
-			"z_smoker_limit" 2
-			"z_max_stagger_duration" 0.9
-			"sv_alltalk" 0
-			"z_ghost_los_expected_progress" 2000
-			"tongue_choke_damage_amount" 5
-			"tongue_break_from_damage_amount" 300
-			"director_special_initial_spawn_delay_min" 2
-			"director_special_initial_spawn_delay_max" 10
-			
-			// these are 360 only convar changes, if you prefix with 360_, they'll
-			// get set on 360 and dedicated for 360
-			"360_z_mega_mob_size" 25
-			"360_z_mob_spawn_max_size" 18
-			"360_z_versus_wandering_density" 0.026
-			
+			cl_viewmodelfovhunter "100"
+            cl_viewmodelfovtank "100"
+			cl_viewmodelfovboomer "100"
+			cl_viewmodelfovsmoker "100"
+			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
-			mat_disable_bloom 1
+			mat_disable_bloom 0
 			r_draw_flashlight_3rd_person 0
 			r_maxdlights 0
 			r_shadowfromworldlights 0
@@ -217,9 +154,6 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-            hud_targetid_player_view_cone 0.0
-            cl_viewmodelfovhunter 115
-            cl_viewmodelfovtank 115
 	    	cl_color_survivor "255 246 119" 
 			r_3dsky 0
 		}
@@ -241,35 +175,14 @@
 
 		convar
 		{
-			"z_scrimmage_creep_delay" 0
-			"z_scrimmage_creep_rate" 100
-			"z_spawn_safety_range" 200
-			"tongue_miss_delay" 3
-			"tongue_hit_delay" 15
-			"tongue_dropping_to_ground_time" 0.5
-			"tongue_los_forgiveness_time" 1.5
-			"tongue_no_progress_choke_early_delay" 1.0
-			"z_pounce_stumble_radius" 160
-			"z_pounce_damage_interrupt" 150
-			"z_hunter_limit" 2
-			"z_smoker_limit" 2
-			"z_max_stagger_duration" 0.9
-			"sv_alltalk" 0
-			"z_ghost_los_expected_progress" 2000
-			"tongue_choke_damage_amount" 5
-			"tongue_break_from_damage_amount" 300
-			"director_special_initial_spawn_delay_min" 2
-			"director_special_initial_spawn_delay_max" 10
-
-			// these are 360 only convar changes, if you prefix with 360_, they'll
-			// get set on 360 and dedicated for 360
-			"360_z_mega_mob_size" 25
-			"360_z_mob_spawn_max_size" 18
-			"360_z_versus_wandering_density" 0.026
-			
+			cl_viewmodelfovhunter "100"
+            cl_viewmodelfovtank "100"
+			cl_viewmodelfovboomer "100"
+			cl_viewmodelfovsmoker "100"
+			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
-			mat_disable_bloom 1
+			mat_disable_bloom 0
 			r_draw_flashlight_3rd_person 0
 			r_maxdlights 0
 			r_shadowfromworldlights 0
@@ -295,10 +208,7 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-            hud_targetid_player_view_cone 0.0
-            cl_viewmodelfovhunter 115
-            cl_viewmodelfovtank 115
-	   		cl_color_survivor "255 246 119" 
+	    	cl_color_survivor "255 246 119" 
 			r_3dsky 0
 		}
 	}
