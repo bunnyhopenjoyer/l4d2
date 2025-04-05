@@ -19,10 +19,10 @@
 		
 		convar
 		{
-			cl_viewmodelfovhunter "100"
-            cl_viewmodelfovtank "100"
-			cl_viewmodelfovboomer "100"
-			cl_viewmodelfovsmoker "100"
+			"cl_viewmodelfovhunter" "100"
+            "cl_viewmodelfovtank" "100"
+			"cl_viewmodelfovboomer" "100"
+			"cl_viewmodelfovsmoker" "100"
 			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
@@ -52,7 +52,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-	    	cl_color_survivor "255 246 119" 
+	    	cl_color_survivor "255 246 119"
+			cl_color_zombie "255 0 0" 
 			r_3dsky 0
 		}
 	}
@@ -70,10 +71,10 @@
 		// set base gamemode convars first, then the current gamemode
 		convar
 		{
-			cl_viewmodelfovhunter "100"
-            cl_viewmodelfovtank "100"
-			cl_viewmodelfovboomer "100"
-			cl_viewmodelfovsmoker "100"
+			"cl_viewmodelfovhunter" "100"
+            		"cl_viewmodelfovtank" "100"
+			"cl_viewmodelfovboomer" "100"
+			"cl_viewmodelfovsmoker" "100"
 			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
@@ -103,7 +104,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-	    	cl_color_survivor "255 246 119" 
+			cl_color_survivor "255 246 119"
+			cl_color_zombie "255 0 0" 
 			r_3dsky 0
 		}
 	}
@@ -121,10 +123,10 @@
 
 		convar
 		{
-			cl_viewmodelfovhunter "100"
-            cl_viewmodelfovtank "100"
-			cl_viewmodelfovboomer "100"
-			cl_viewmodelfovsmoker "100"
+			"cl_viewmodelfovhunter" "100"
+            "cl_viewmodelfovtank" "100"
+			"cl_viewmodelfovboomer" "100"
+			"cl_viewmodelfovsmoker" "100"
 			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
@@ -154,7 +156,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-	    	cl_color_survivor "255 246 119" 
+	    	cl_color_survivor "255 246 119"
+			cl_color_zombie "255 0 0" 
 			r_3dsky 0
 		}
 	}
@@ -175,10 +178,10 @@
 
 		convar
 		{
-			cl_viewmodelfovhunter "100"
-            cl_viewmodelfovtank "100"
-			cl_viewmodelfovboomer "100"
-			cl_viewmodelfovsmoker "100"
+			"cl_viewmodelfovhunter" "100"
+            "cl_viewmodelfovtank" "100"
+			"cl_viewmodelfovboomer" "100"
+			"cl_viewmodelfovsmoker" "100"
 			zoom_sensitivity_ratio 1.2
 			r_shadows_on_renderables_enable 0
 			z_mob_simple_shadows 2
@@ -208,7 +211,8 @@
             hud_targetid_name_height_hunter -70 
             hud_targetid_name_height_smoker -70 
             hud_targetid_name_height_tank -70 
-	    	cl_color_survivor "255 246 119" 
+	    	cl_color_survivor "255 246 119"
+			cl_color_zombie "255 0 0" 
 			r_3dsky 0
 		}
 	}
