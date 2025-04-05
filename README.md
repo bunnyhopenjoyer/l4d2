@@ -2,9 +2,8 @@
 
 Toggle binds for:
 
-- viewmodel (47, 75, 180)
+- viewmodel (180, 100)
 - lerp (0ms, 33ms)
-- crosshair (dynamic 0, 1)
   
 ---
 
@@ -12,7 +11,8 @@ Custom stuff:
 
 - Playernames are under the players feet, and their health is displayed in numbers next to them.
 - Survivor main color changed from blue to yellow because my favourite color is yellow
-- Higher Tank & Hunter viewmodel fov
+- Infected main color changed from red to a lighter red
+- Higher Infected viewmodel fov
 - 0 lerp is allowed everywhere + some performance boosting stuff are added
 
 ---
